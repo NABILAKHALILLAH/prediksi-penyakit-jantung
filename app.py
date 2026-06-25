@@ -1,3 +1,7 @@
+import sklearn
+import pandas
+print("Scikit-learn version:", sklearn.__version__)
+print("Pandas version:", pandas.__version__)
 import streamlit as st
 import pandas as pd
 import pickle
